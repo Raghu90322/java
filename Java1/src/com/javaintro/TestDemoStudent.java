@@ -31,9 +31,7 @@ public class TestDemoStudent {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		TestDemoStudent st = new TestDemoStudent();
-		st.marks();
-		System.out.println(" Enter Marks: " ); 
-		int sa = sc.nextInt();
+		st.marks(); 
 		int a = st.submarks();
 		st.average(a);
 		

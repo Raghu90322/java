@@ -8,7 +8,7 @@ public class TestDemo2 {
 	String studentName;
 	String courseName;
 	int marks;
-	private Object newprinciple;
+	
 	
 	static  void collage(){
 		System.out.println("collageName: "+TestDemo2.collageName);
